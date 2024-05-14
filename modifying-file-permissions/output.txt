@@ -1,0 +1,175 @@
+    1  ls 
+    2  ls l
+    3  ls -l
+    4  ls -la
+    5  clear
+    6  ls -ls
+    7  ls -l
+    8  ls -la
+    9  clear
+   10  ls /var/log
+   11  ls -la /var/log 
+   12  ls -l ver/log
+   13  ls -l /var/log
+   14  echo today is good 
+   15  pwd 
+   16  whereis pwd 
+   17  whichis pwd 
+   18  which pwwd 
+   19  which pwd
+   20  clear 
+   21  ls -l 
+   22  mkdir text
+   23  ls -la 
+   24  cd text touch text.html
+   25  pushd text
+   26  touch text.html
+   27  popd 
+   28  clear
+   29  ls -la 
+   30  mkdir test02
+   31  ls -la 
+   32  cp text.html test02 
+   33  cp text/text.html test02 
+   34  ls -la 
+   35  ls test02 
+   36  rm *test
+   37  rm test*
+   38  rm -rf test*
+   39  ls -la 
+   40  rm -rf test8
+   41  rm -rf text*
+   42  ls -la 
+   43  clear 
+   44  shutdown -h -t 20s
+   45  shutdown man 
+   46  man shutdown 
+   47  shutdown -h 
+   48  vim 
+   49  ls -la
+   50  env 
+   51  echo $HOME
+   52  echo $USER
+   53  echo $PATH
+   54  clear 
+   55  ls -l
+   56  ls -l > output.txt
+   57  cat output.txt
+   58  clear 
+   59  ls -la
+   60  cat output.txt 
+   61  rm output.txt 
+   62  ls -la 
+   63  clear 
+   64  ls -la > output.txt
+   65  ls -la 
+   66  cat output.txt
+   67  touch output2.txt
+   68  ls -la >> output.txt
+   69  ls -la
+   70  cat output.txt
+   71  clear 
+   72  ls -la ./dir 2> error.txt 
+   73  cat error.txt
+   74  ls -l ./dir > error.txt 2>&1
+   75  cat error.txt
+   76  ls -l &> output2.txt
+   77  cat output2.txt
+   78  ls -la &> output3.txt
+   79  cat output3.txt
+   80  ls -la ./dir &> output3.txt
+   81  cat output3.txt 
+   82  clear 
+   83  ls 
+   84  cat part claet 
+   85  clare
+   86  clear 
+   87  ls -la 
+   88  rm error.txt output.txt output2.txt output3.txt
+   89  ls -la 
+   90  clear 
+   91  touch lorem1.txt
+   92  nano lorem1.txt 
+   93  ls -la 
+   94  cat lorem1.txt 
+   95  touch lorem2.txt
+   96  touch nano lorem3.txt
+   97  ls -la 
+   98  nano lorem2.txt
+   99  nano lorem3.txt 
+  100  clear 
+  101  cat lorem1.txt lorem2.txt lorem3.txt > paragraph.txt
+  102  ls 
+  103  rm nano
+  104  ls 
+  105  cat paragraph.txt 
+  106  ls -la
+  107  ls /usr/bin
+  108  clear
+  109  ls -l /user/bin | less 
+  110  ls -la /usr/bin | less
+  111  ls -la /usr/bin | head 
+  112  ls -la /usr/bin | tail 20
+  113  tail man 
+  114  man tail 
+  115  ls -al /usr/bin | tail -n 20
+  116  ls -la /usr/bin | head -n 50
+  117  clear
+  118  history
+  119  clear 
+  120  ls -la /usr/bin | grep echo 
+  121  clear 
+  122  touch output.txt | nano output.txt
+  123  ls 
+  124  touch output3.txt | nano output3.txt
+  125  man nano 
+  126  rm output3.txt output.txt
+  127  touch output.txt | nano -i output.txt
+  128  ls -l
+  129  rm *txt
+  130  ls -ls 
+  131  history
+  132  clear 
+  133  ls -la /usr/bin | grep echo 
+  134  ls -la /usr/bin | grep echo | sort | >> results.txt
+  135  ls -l
+  136  cat results.txt 
+  137  history
+  138  ls -la /usr/bin | grep echo | sort | > result2.txt
+  139  ls -la
+  140  cat result2.txt 
+  141  clear 
+  142  rm *txt 
+  143  ls -la
+  144  clear 
+  145  ls -l
+  146  cd modifying-file-permissions/
+  147  l s
+  148  ls 
+  149  chown --help 
+  150  clear 
+  151  ls -l newFile.txt
+  152  sudo chown root newFile.txt
+  153  ls -l newFile.txt 
+  154  sudo chown :root neFile.txt
+  155  sudo chown :root newfile.txt
+  156  sudo chown :root newFile.txt
+  157  sudo chown vscode newFile.txt 
+  158  clear
+  159  ls -la
+  160  chgrp vscode newFile.txt
+  161  ls -la newFile.txt
+  162  ls -la script.sh 
+  163  ./script 
+  164  ./script.sh 
+  165  chmod +x script.sh
+  166  ls -la 
+  167  chmod -x script.sh
+  168  ls 
+  169  ls -al
+  170  ./script.sh
+  171  chmod +x script.sh 
+  172  la -al
+  173  ./script.sh 
+  174  clear 
+  175  history > output.txt
